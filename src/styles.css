@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Input rows */
+.input-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="number"]::placeholder {
+  color: #999;
+}
+
+/* Layout and cells */
+.App {
+  padding: 20px;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 2px solid #000000;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: lightskyblue;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+}
+
+select {
+  margin-bottom: 5px;
+}
+
+span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+/* buttonStyles.css */
+
+/* Recommend House Button */
+.recommend-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recommend-button:hover {
+  background-color: #0056b3;
+}
+
