@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Housetree/static/css/main.2529cab8.css",
+    "main.js": "/Housetree/static/js/main.9db27535.js",
+    "index.html": "/Housetree/index.html",
+    "main.2529cab8.css.map": "/Housetree/static/css/main.2529cab8.css.map",
+    "main.9db27535.js.map": "/Housetree/static/js/main.9db27535.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2529cab8.css",
+    "static/js/main.9db27535.js"
+  ]
+}
